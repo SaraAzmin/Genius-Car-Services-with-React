@@ -10,6 +10,11 @@ const Register = () => {
         navigate('/login');
     }
 
+    const handleRegister = event => {
+
+        event.preventDefault();
+    }
+
     return (
         <div className='register-form'>
             <h2 className='text-center text-primary my-5'>Register Here</h2>
